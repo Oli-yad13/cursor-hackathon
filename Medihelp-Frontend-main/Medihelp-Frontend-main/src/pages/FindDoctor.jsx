@@ -41,6 +41,8 @@ const FindDoctor = () => {
           },
         });
 
+        console.log("Doctor API response:", response.data); // <-- Added for debugging
+
         if (response.data.results && Array.isArray(response.data.results)) {
           setDoctors(response.data.results);
         } else {
