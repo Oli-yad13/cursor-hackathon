@@ -56,10 +56,10 @@ const NavBar = () => {
   }, [isDarkMode]);
 
   return (
-    <nav className="fixed top-2 left-1/2 transform -translate-x-1/2 w-[98%] max-w-full sm:max-w-5xl shadow-lg z-50 bg-white/80 dark:bg-black/80 backdrop-blur-md border border-gray-200/20 dark:border-gray-800/20 rounded-full">
-      <div className="px-2 py-0.5 sm:px-3 flex justify-between items-center">
+    <nav className="fixed top-2 left-1/2 transform -translate-x-1/2 w-[95%] max-w-full sm:max-w-5xl shadow-lg z-50 bg-white/80 dark:bg-black/80 backdrop-blur-md border border-gray-200/20 dark:border-gray-800/20 rounded-full">
+      <div className="px-1 py-0.5 sm:px-3 flex justify-between items-center">
         <div className="flex items-center overflow-visible">
-          <img src="/logo.png" className="w-12 h-12 sm:w-20 sm:h-20 -my-2 sm:-my-3" />
+          <img src="/logo.png" className="w-10 h-10 sm:w-16 sm:h-16 md:w-20 md:h-20 -my-1 sm:-my-2 md:-my-3" />
         </div>
 
         <div className="md:hidden">
