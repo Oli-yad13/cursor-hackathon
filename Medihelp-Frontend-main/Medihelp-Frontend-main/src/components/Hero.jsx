@@ -19,7 +19,7 @@ const Hero = () => {
       </video>
       <div className="absolute inset-0 bg-black dark:bg-black opacity-40"></div>
 
-      <div className="container mx-auto relative z-10 flex flex-col items-center justify-center min-h-screen px-4 text-center">
+      <div className="container mx-auto relative z-10 flex flex-col items-center justify-center min-h-screen px-2 sm:px-4 text-center">
         <motion.div
           className="space-y-8 max-w-4xl"
           initial={{ opacity: 0, y: 30 }}
@@ -27,7 +27,7 @@ const Hero = () => {
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
           <motion.h1
-            className="text-5xl md:text-7xl font-bold text-white dark:text-white leading-tight"
+            className="text-3xl sm:text-5xl md:text-7xl font-bold text-white dark:text-white leading-tight"
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
@@ -39,7 +39,7 @@ const Hero = () => {
           </motion.h1>
 
           <motion.p
-            className="text-2xl md:text-3xl text-gray-200 dark:text-gray-200 max-w-3xl mx-auto"
+            className="text-lg sm:text-2xl md:text-3xl text-gray-200 dark:text-gray-200 max-w-3xl mx-auto"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.2 }}
@@ -55,12 +55,12 @@ const Hero = () => {
             transition={{ duration: 1.5, delay: 0.4 }}
           >
             <Link to="/signup/patient">
-              <button className="bg-gradient-to-r from-cyan-600 to-blue-600 text-white px-8 py-4 rounded-full font-semibold hover:from-cyan-700 hover:to-blue-700 transition-all duration-300 transform hover:scale-105 shadow-lg">
+              <button className="bg-gradient-to-r from-cyan-600 to-blue-600 text-white px-4 py-2 sm:px-8 sm:py-4 rounded-full font-semibold hover:from-cyan-700 hover:to-blue-700 transition-all duration-300 transform hover:scale-105 shadow-lg">
                 Get Started for Free
               </button>
             </Link>
             <Link to="/about">
-              <button className="bg-white/10 backdrop-blur-sm text-white border border-white/20 px-8 py-4 rounded-full font-semibold hover:bg-white/20 transition-all duration-300 transform hover:scale-105">
+              <button className="bg-white/10 backdrop-blur-sm text-white border border-white/20 px-4 py-2 sm:px-8 sm:py-4 rounded-full font-semibold hover:bg-white/20 transition-all duration-300 transform hover:scale-105">
                 Learn More
               </button>
             </Link>
