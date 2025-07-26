@@ -5,7 +5,7 @@ import NavBar from "./NavBar";
 
 const Hero = () => {
   return (
-    <div className="text-white dark:text-white relative min-h-screen overflow-hidden transition-all duration-1000">
+    <div className="text-white dark:text-white relative min-h-screen overflow-hidden transition-all duration-1000 mt-20">
       <video
         className="absolute top-0 left-0 w-full h-full object-cover"
         autoPlay
